@@ -1,40 +1,6 @@
 const P_d = require("../models/p_d.model.js");
 
-// // Create and Save a new p_d
-// exports.create = (req, res) => {
-  
-// };
-
-// // Retrieve all p_d from the database (with condition).
-// exports.findAll = (req, res) => {
-  
-// };
-
-// // Find a single p_d with a id
-// exports.findOne = (req, res) => {
-  
-// };
-
-// // find all published p_d
-// exports.findAllPublished = (req, res) => {
-  
-// };
-
-// // Update a p_d identified by the id in the request
-// exports.update = (req, res) => {
-  
-// };
-
-// // Delete a p_d with the specified id in the request
-// exports.delete = (req, res) => {
-  
-// };
-
-// // Delete all p_d from the database.
-// exports.deleteAll = (req, res) => {
-  
-// };
-
+// Create and Save a new p_d
 exports.create = (req, res) => {
     // Validate request
     if (!req.body) {
